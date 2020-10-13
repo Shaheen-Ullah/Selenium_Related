@@ -17,6 +17,3 @@ newdata = data.sort_values(by=['accept'],ascending=False)
 print(newdata.loc[0,['name']])
 test = f"https://leetcode.com/problems/{ '-'.join(newdata.loc[0,['name']].values[0].split())}/"
 
-print(newdata)
-newdata.to_csv("./newdata")
-print(test)
