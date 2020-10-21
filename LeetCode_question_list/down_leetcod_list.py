@@ -93,7 +93,7 @@ LC_list.reset_index()
 # 就是題目 814. Binary Tree Pruning
 # 下方為驗證測試工具，確認網址是否可以連接到leetCode網址
 print( f"https://leetcode.com/problems/{ '-'.join(LC_list.loc[0,['name']].values[0].split())}/")
-#
+# 輸出：https://leetcode.com/problems/Two-Sum/
 # print(LC_list)
 
 # 將資料存成CSV檔，以方便後續使用
